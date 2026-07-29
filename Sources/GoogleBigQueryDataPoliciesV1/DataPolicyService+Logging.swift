@@ -59,14 +59,14 @@ extension Clients {
 
     public func createDataPolicy(
       request: CreateDataPolicyRequest, options: GoogleCloudGax.RequestOptions
-    ) async throws -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy {
+    ) async throws -> GoogleBigQueryDataPoliciesV1.DataPolicy {
       try await self._intercept(
         request: request,
         options: options,
         name: "createDataPolicy",
         action: {
           (r: CreateDataPolicyRequest, o: GoogleCloudGax.RequestOptions) async throws
-            -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy
+            -> GoogleBigQueryDataPoliciesV1.DataPolicy
           in
           return try await self.inner.createDataPolicy(request: r, options: o)
         })
@@ -74,14 +74,14 @@ extension Clients {
 
     public func updateDataPolicy(
       request: UpdateDataPolicyRequest, options: GoogleCloudGax.RequestOptions
-    ) async throws -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy {
+    ) async throws -> GoogleBigQueryDataPoliciesV1.DataPolicy {
       try await self._intercept(
         request: request,
         options: options,
         name: "updateDataPolicy",
         action: {
           (r: UpdateDataPolicyRequest, o: GoogleCloudGax.RequestOptions) async throws
-            -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy
+            -> GoogleBigQueryDataPoliciesV1.DataPolicy
           in
           return try await self.inner.updateDataPolicy(request: r, options: o)
         })
@@ -89,14 +89,14 @@ extension Clients {
 
     public func renameDataPolicy(
       request: RenameDataPolicyRequest, options: GoogleCloudGax.RequestOptions
-    ) async throws -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy {
+    ) async throws -> GoogleBigQueryDataPoliciesV1.DataPolicy {
       try await self._intercept(
         request: request,
         options: options,
         name: "renameDataPolicy",
         action: {
           (r: RenameDataPolicyRequest, o: GoogleCloudGax.RequestOptions) async throws
-            -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy
+            -> GoogleBigQueryDataPoliciesV1.DataPolicy
           in
           return try await self.inner.renameDataPolicy(request: r, options: o)
         })
@@ -117,14 +117,14 @@ extension Clients {
 
     public func getDataPolicy(
       request: GetDataPolicyRequest, options: GoogleCloudGax.RequestOptions
-    ) async throws -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy {
+    ) async throws -> GoogleBigQueryDataPoliciesV1.DataPolicy {
       try await self._intercept(
         request: request,
         options: options,
         name: "getDataPolicy",
         action: {
           (r: GetDataPolicyRequest, o: GoogleCloudGax.RequestOptions) async throws
-            -> GoogleCloudBigqueryDatapoliciesV1.DataPolicy
+            -> GoogleBigQueryDataPoliciesV1.DataPolicy
           in
           return try await self.inner.getDataPolicy(request: r, options: o)
         })
@@ -132,14 +132,14 @@ extension Clients {
 
     public func listDataPolicies(
       request: ListDataPoliciesRequest, options: GoogleCloudGax.RequestOptions
-    ) async throws -> GoogleCloudBigqueryDatapoliciesV1.ListDataPoliciesResponse {
+    ) async throws -> GoogleBigQueryDataPoliciesV1.ListDataPoliciesResponse {
       try await self._intercept(
         request: request,
         options: options,
         name: "listDataPolicies",
         action: {
           (r: ListDataPoliciesRequest, o: GoogleCloudGax.RequestOptions) async throws
-            -> GoogleCloudBigqueryDatapoliciesV1.ListDataPoliciesResponse
+            -> GoogleBigQueryDataPoliciesV1.ListDataPoliciesResponse
           in
           return try await self.inner.listDataPolicies(request: r, options: o)
         })
